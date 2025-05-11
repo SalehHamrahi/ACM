@@ -36,7 +36,7 @@
 ---
 ---
 
-### سوال A2
+### سوال A2 (عدد دانا)
 <p>
     آقای دانا معلم ریاضی کهریزکند بسیار به دنیای ریاضی و اعداد علاقه مند است. او تصمیم گرفته سبکی از عداد را به نام خود ثبت کند. آقای دانا به اعدادی که از چپ به راست رقم های آن افزایشی است و رقم تکراری درآن وجود ندارد عدد دانا میگوید.
 </p>
@@ -54,4 +54,137 @@
 ---
 ---
 
-### سوال A3
+### سوال A3 (سهمیه مسابقه جهانی)
+<p>
+    آقای دانا معلم ریاضی شهر کهریزلند نوعی آزمون خاص طراحی کرده. و در این آزمون هیچ دونفری نمیتوانند نمره یکسان بگیرند و همچنین هیچکس نمیتواند نمره فرد بگیرد. الی زمانی که تقلب کرده باشند!
+</p>
+<p>
+    نمره ی این آزمون عددی بین ۰ تا ۱۰۰ است.
+</p>
+<p>
+    حال آقای دانا از ۵ دانش آموز خود آزمون گرفته است و برای برسی تقلب از شما میخواهد برنامه ای بنویسید که نمرات دانش آموزان را دریافت کند و اگر تقلب کرده بودند ۰ و اگر تقلب نکرده بودند عدد ۱ را در خروجی نمایش دهد.
+</p>
+<p>
+    ورودی ۵ تا عدد بین ۰ تا ۱۰۰
+</p>
+<p>
+    خروجی: درصورتی که تقلب کرده اند ۰ و در صورتی که تقلب نکرده اند ۱ در خروجی چاپ شود.
+</p>
+
+|       خروجی           |       ورودی          |
+|       :---:       |           :---:          |
+|         0         |      90 40 66 40 20      |
+|         1         |      100 60 90 36 24     |
+|         0         |      10 73 42 54 24      |
+
+
+---
+---
+
+### سوال B1 (شهرک سازی)
+<p>
+    آقای مالک قصد خرید یک زمین بزرگ n*m را برای شهرک سازی دارد. او به دنبال بهترین زمین برای ساختن شهرک است و از آنجایی که خانه هایی که در مرز شهرک ارزان قیمت تر هستنند. آقای مالک دنبال زمینی با کمترین تعداد ساختمان مرزی است او از شما میخواهد برنامه ای بنویسید که m و n را دریافت کند و بگوید چند ساختمان در این شهرک مرزی خواهند بود.
+</p>
+<p>
+    برای مثال یک شهرک ۴ در ۳ تعداد ۱۰ ساختمان مرزی هستند.
+</p>
+
+
+<table border="1" cellspacing="0" cellpadding="10">
+  <tr>
+    <td style="background-color: green;">*</td>
+    <td style="background-color: green;">*</td>
+    <td style="background-color: green;">*</td>
+    <td style="background-color: green;">*</td>
+  </tr>
+  <tr>
+    <td style="background-color: green;">*</td>
+    <td style="background-color: white;">*</td>
+    <td style="background-color: white;">*</td>
+    <td style="background-color: green;">*</td>
+  </tr>
+  <tr>
+    <td style="background-color: green;">*</td>
+    <td style="background-color: white;">*</td>
+    <td style="background-color: white;">*</td>
+    <td style="background-color: green;">*</td>
+  </tr>
+  <tr>
+    <td style="background-color: green;">*</td>
+    <td style="background-color: green;">*</td>
+    <td style="background-color: green;">*</td>
+    <td style="background-color: green;">*</td>
+  </tr>
+</table>
+
+|       خروجی       |      ورودی      |
+|       :---:      |      :---:       |
+|        10        |       4 3        |
+|        10        |       2 5        |
+|        4         |       2 2        |
+|        22        |       7 6        |
+
+
+---
+---
+
+### سوال B2 (تلفن معرفت دایی)
+<p>
+    معرفت دایی یکی از سالمندان کهریزلند است. معرفت دایی همچنان از گوشی دکمه اس خود برای ارتباط استفاده میکند که صفحه کلید آن به این صورت است:
+</p>
+<!DOCTYPE html>
+<html lang="fa">
+<head>
+  <meta charset="UTF-8">
+  <style>
+    .keypad {
+      display: grid;
+      grid-template-columns: repeat(3, 80px);
+      gap: 10px;
+      justify-content: center;
+      margin-top: 30px;
+    }
+
+    .key {
+      background-color: #eee;
+      border: 2px solid #666;
+      border-radius: 20px;
+      text-align: center;
+      padding: 15px 5px;
+      font-family: sans-serif;
+      font-weight: bold;
+    }
+
+    .number {
+      font-size: 24px;
+      display: block;
+    }
+
+    .letters {
+      font-size: 12px;
+      margin-top: 5px;
+    }
+  </style>
+</head>
+<body>
+
+<div class="keypad">
+  <div class="key"><span class="number">1</span></div>
+  <div class="key"><span class="number">2</span><span class="letters">ABC</span></div>
+  <div class="key"><span class="number">3</span><span class="letters">DEF</span></div>
+  
+  <div class="key"><span class="number">4</span><span class="letters">GHI</span></div>
+  <div class="key"><span class="number">5</span><span class="letters">JKL</span></div>
+  <div class="key"><span class="number">6</span><span class="letters">MNO</span></div>
+  
+  <div class="key"><span class="number">7</span><span class="letters">PQRS</span></div>
+  <div class="key"><span class="number">8</span><span class="letters">TUV</span></div>
+  <div class="key"><span class="number">9</span><span class="letters">WXYZ</span></div>
+  
+  <div class="key"><span class="number">*</span></div>
+  <div class="key"><span class="number">0</span></div>
+  <div class="key"><span class="number">#</span></div>
+</div>
+
+</body>
+</html>

@@ -2,6 +2,7 @@
 #include <vector>
 using namespace std;
 //c3
+// در این سوال تمام حالات محاسبه شده و فرمولی استفاده نشده است
 int main() 
 {
     int a[10],n[10];
