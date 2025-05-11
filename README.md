@@ -1,3 +1,4 @@
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 # سوال های مسابقات acm مک
 ### سوال A1 (مسابقه سیب خوری)
 <p>
