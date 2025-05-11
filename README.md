@@ -99,14 +99,14 @@
   </tr>
   <tr>
     <td style="background-color: green;">*</td>
-    <td style="background-color: white;">*</td>
-    <td style="background-color: white;">*</td>
+    <td style="background-color: white;"></td>
+    <td style="background-color: white;"></td>
     <td style="background-color: green;">*</td>
   </tr>
   <tr>
     <td style="background-color: green;">*</td>
-    <td style="background-color: white;">*</td>
-    <td style="background-color: white;">*</td>
+    <td style="background-color: white;"></td>
+    <td style="background-color: white;"></td>
     <td style="background-color: green;">*</td>
   </tr>
   <tr>
@@ -132,59 +132,8 @@
 <p>
     معرفت دایی یکی از سالمندان کهریزلند است. معرفت دایی همچنان از گوشی دکمه اس خود برای ارتباط استفاده میکند که صفحه کلید آن به این صورت است:
 </p>
-<!DOCTYPE html>
-<html lang="fa">
-<head>
-  <meta charset="UTF-8">
-  <style>
-    .keypad {
-      display: grid;
-      grid-template-columns: repeat(3, 80px);
-      gap: 10px;
-      justify-content: center;
-      margin-top: 30px;
-    }
-
-    .key {
-      background-color: #eee;
-      border: 2px solid #666;
-      border-radius: 20px;
-      text-align: center;
-      padding: 15px 5px;
-      font-family: sans-serif;
-      font-weight: bold;
-    }
-
-    .number {
-      font-size: 24px;
-      display: block;
-    }
-
-    .letters {
-      font-size: 12px;
-      margin-top: 5px;
-    }
-  </style>
-</head>
-<body>
-
-<div class="keypad">
-  <div class="key"><span class="number">1</span></div>
-  <div class="key"><span class="number">2</span><span class="letters">ABC</span></div>
-  <div class="key"><span class="number">3</span><span class="letters">DEF</span></div>
-  
-  <div class="key"><span class="number">4</span><span class="letters">GHI</span></div>
-  <div class="key"><span class="number">5</span><span class="letters">JKL</span></div>
-  <div class="key"><span class="number">6</span><span class="letters">MNO</span></div>
-  
-  <div class="key"><span class="number">7</span><span class="letters">PQRS</span></div>
-  <div class="key"><span class="number">8</span><span class="letters">TUV</span></div>
-  <div class="key"><span class="number">9</span><span class="letters">WXYZ</span></div>
-  
-  <div class="key"><span class="number">*</span></div>
-  <div class="key"><span class="number">0</span></div>
-  <div class="key"><span class="number">#</span></div>
-</div>
-
-</body>
-</html>
+| 1     | 2 (ABC)  | 3 (DEF)  |
+|-------|----------|----------|
+| 4 (GHI) | 5 (JKL) | 6 (MNO)  |
+| 7 (PQRS)| 8 (TUV) | 9 (WXYZ) |
+| *     | 0        | #        |
