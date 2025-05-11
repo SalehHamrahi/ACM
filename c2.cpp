@@ -5,13 +5,20 @@ using namespace std;
 //c2
 int main() 
 {
+    //a: ارتفاع هر بخش کوهستان
+    //table: فضای کوه
+    //b: تعداد آب جمع آوری شده
     int a[12];
     int table[5][12];
     int b=0;
+
+    //دریافت ارتفاع ها
     for(int i=0;i<12;i++)
     {
         cin>>a[i];
     }
+
+    //ثبت مقادیر پیشفرض برای کوه
     for(int i=0;i<5;i++)
     {
         for(int j=0;j<12;j++)
@@ -19,6 +26,8 @@ int main()
             table[i][j] = 0;
         }
     }
+
+    //ایجاد ارتقاع ها در کوه
     for(int i=0;i<5;i++)
     {
         for(int j=0;j<12;j++)
@@ -30,6 +39,8 @@ int main()
             }
         }
     }
+
+    //برسی تعداد آب جمع آوری شده
     for(int i=0;i<5;i++)
     {
         for(int j=0;j<12;j++)
@@ -76,6 +87,8 @@ int main()
             }
         }
     }
+
+    //خروجی
     cout<<b;
     return 0;
 }

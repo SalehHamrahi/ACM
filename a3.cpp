@@ -3,16 +3,17 @@ using namespace std;
 //a3
 int main() 
 {
-    int a[5],b=1,t=true;
+    //a: دریافت عداد
+    //b: در صورت تقلب ۰ و در غیر این صورت ۱ میشود
+    int a[5],b=1;
+
+    //دریافت مقادیر
     for(int i=0;i<5;i++)
     {
         cin>>a[i];
-        if(a[i] > 100 || a[i] < 0)
-        {
-            t = false;
-        }
-
     }
+
+    //برسی تقلب کردن
     for(int i=0;i<5;i++)
     {
         for(int j=i+1;j<5;j++)
@@ -23,9 +24,8 @@ int main()
             }
         }
     }
-    if(t)
-    {
-        cout<<b;
-    }
+    
+    //خروجی
+    cout<<b;
     return 0;
 }
